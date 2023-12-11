@@ -5,29 +5,56 @@
     <meta charset="UTF-8">
     <title>Aplicativo de Trânsito</title>
     <link rel="stylesheet" href="home.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <!--Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+        integrity="sha384-9/BdHt3nKyaE+AfreFtt5Vq8n2b/2W3v/zJ9391XeMsVv9v4f8mEt8n64x51qV"
+        crossorigin="anonymous"></script>
+
 </head>
 
-<body>
+<body class="split-half-bottom">
     <header>
         <div class="container1">
             <div class="left-content">
                 <a href="#">
-                    <img src="logo.png" alt="Logo da empresa">
+                    <img width="68" height="68" src="https://img.icons8.com/color/48/ankama.png" alt="ankama" />
                 </a>
             </div>
-            <div class="center-content">
-                <a href=" https://icons8.com/icon/9729/telefone-desligado "><img width="25" height="25"
-                        src="https://img.icons8.com/ios-filled/50/phone-disconnected.png"
-                        alt="phone-disconnected" />Fale conosco: (21) 9 9999-9999</a>
+            <div class="center-content links-header">
+                <a href=" https://icons8.com/icon/9729/telefone-desligado "><img width="34" height="34"
+                        src="https://img.icons8.com/flat-round/64/phone.png" alt="phone" />Fale conosco: (21) 9
+                    9999-9999</a>
             </div>
+
             <nav class="links-header">
-                <a href="#">Serviços</a>
                 <a href="#">Quem Somos</a>
                 <a href="#">Contato</a>
                 <a href="#">Blog</a>
+                <span class="servicos">Serviços ▾
+                    <ul>
+                        <li>⦿ Multas</li>
+                        <li>⦿ Cassação da CNH</li>
+                        <li>⦿ Comunicação de Venda e Transferência de Responsabilidade</li>
+                        <li>⦿ Multa na CNH Provisória</li>
+                        <li>⦿ Problemas com Lei Seca</li>
+                        <li>⦿ Suspensão da CNH</li>
+                        <li>⦿ Troca de Real Infrator</li>
+                    </ul>
+                </span>
             </nav>
+
             <a class="logo-zap" href="https://www.google.com" target="_blank">
-                <img width="38" height="38" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
                     alt="whatsapp--v1" /><span class="button-zap">Fale conosco</span></a>
         </div>
     </header>
@@ -35,59 +62,119 @@
         <div class="container">
             <h1>Levou uma multa?</h1>
             <h2>A ... te ajuda!</h2>
-            <p>
-                A empresa Lorem Ipsum é especializada em serviços de trânsito.<br/> Oferecemos uma ampla gama de serviços,
-                incluindo:
-            </p>
-            <a href="#">
-                <img src="whatsapp.png" alt="WhatsApp">
-            </a>
+            <p><strong>
+                Encontre aqui tudo que você precisa para solucionar seus problemas com multas, cassação da CNH,
+                comunicação de venda e transferência de responsabilidade, multa na CNH provisória, problemas com Lei
+                Seca, suspensão da CNH e troca de real infrator.
+            </p></strong>
+            <a class="logo-zap" href="https://www.google.com" target="_blank">
+                <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                    alt="whatsapp--v1" />Fale conosco</a>
         </div>
     </main>
-    <section class="cards">
-        <h2>Tipos de problema</h2>
-        <div class="card1">
-            <img src="problema-1.png" alt="Problema de trânsito">
-            <h3>Problema 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec eros odio.
-            </p>
-            <a href="#">
-                <img src="whatsapp.png" alt="WhatsApp">
-            </a>
-        </div>
-        <div class="card2">
-            <img src="problema-2.png" alt="Problema de trânsito">
-            <h3>Problema 2</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec eros odio.
-            </p>
-            <a href="#">
-                <img src="whatsapp.png" alt="WhatsApp">
-            </a>
-        </div>
-        <div class="card3">
-            <img src="problema-3.png" alt="Problema de trânsito">
-            <h3>Problema 3</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec eros odio.
-            </p>
-            <a href="#">
-                <img src="whatsapp.png" alt="WhatsApp">
-            </a>
-        </div>
-        <div class="card4">
-            <img src="problema-4.png" alt="Problema de trânsito">
-            <h3>Problema 4</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec eros odio.
-            </p>
-            <a href="#">
-                <img src="whatsapp.png" alt="WhatsApp">
-            </a>
-        </div>
-    </section>
-    </div>
-</body>
 
+<section>
+    <div class="cards">
+        <div class="card" style="width: 18rem; margin: 20px;padding: 2px; border-radius: 5px;">
+            <img src="https://www12.senado.leg.br/noticias/materias/2018/04/19/endurecimento-da-lei-seca-entra-em-vigor/lei_seca_02___20171222_00025.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Problemas com a Lei Seca</h5>
+                <p class="card-text">Ser parado na Lei Seca é sempre um problemão, mas você não está sozinho. Conte com
+                    a (...) para proteger a sua CNH. </p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;padding: 6px; border-radius: 5px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzIA2qZXz38HbX22Z0uY0N_LuCajx849bStw&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Recurso de Multas Mandatórias</h5>
+                <p class="card-text">Cometeu algum deslize no trânsito e recebeu uma multa nada agradável? Nós podemos te ajudar! É só clicar no botão abaixo.</p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;padding: 6px; border-radius: 5px;">
+            <img src="C:\Users\user\Downloads\images (1).png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Suspensão da Carteira Nacional de Habilitação</h5>
+                <p class="card-text">Fale com nossos especialistas e descubra todas as possibilidades para reaver a sua
+                    CNH!</p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cards">
+        <div class="card" style="width: 18rem; margin: 20px; padding: 6px; border-radius: 5px;">
+            <img src="C:\Users\user\Downloads\transferir (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cassação da CNH​</h5>
+                <p class="card-text">Recebeu uma notificação de Cassação da CNH? Não se desespere, fale com o nosso time
+                    e deixe que nós cuidamos disso.</p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;padding: 6px; border-radius: 5px;">
+            <img src="C:\Users\user\Downloads\transferir (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Transferência de Responsabilidade</h5>
+                <p class="card-text">Vendeu o carro mas recebeu a desagradável surpresa de uma nova multa nos seus
+                    correios?</p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;padding: 6px; border-radius: 5px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzIA2qZXz38HbX22Z0uY0N_LuCajx849bStw&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Multa na CNH Provisória​</h5>
+                <p class="card-text">Imprevistos acontecem. Clique no botão e conte com o nosso time de especialistas
+                    para proteger o seu direito de dirigir.</p>
+                <a class="logo-zap2" href="https://www.google.com" target="_blank">
+                    <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                        alt="whatsapp--v1" /></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="card mb-3" style="max-width: 85%; padding: 10px; margin:auto; margin-top: 20px; height: auto;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw60KvDU3LhLZNJIHz2exvawRza2eXeBcESQ&usqp=CAU" class="img-fluid rounded-start" style="height: 220px;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">A (...)</h5>
+          <p class="card-text">Somos uma equipe especializada em defesas administrativas, com profissionais com mais de 20 anos de experiência, preparados para te orientar, defender e representar seus direitos.
+
+            Nosso maior diferencial é que analisamos cada caso individualmente, o que proporciona a defesa adequada e a utilização dos argumentos jurídicos corretos.</p>
+
+             <a class="logo-zap" href="https://www.google.com" target="_blank">
+                <img width="28" height="28" src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                    alt="whatsapp--v1" />Fale conosco</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="max-width: 100%; padding: 10px; margin:auto; margin-top: 20px; height: auto;">
+    <h5 class="card-header">NOSSOS ESPECIALISTAS ESTÃO TE AGUARDANDO</h5>
+    <div class="card-body">
+      <h5 class="card-title-footer">FALE COM A NOSSA EQUIPE</h5>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</body>
 </html>
